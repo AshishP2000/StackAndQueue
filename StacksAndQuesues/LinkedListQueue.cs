@@ -27,7 +27,7 @@ namespace StacksAndQuesues
         public void Dequeue()
         {
             if (top == null)
-                Console.WriteLine("List is Empty");
+                Console.WriteLine("Queue is Empty");
             else
                 Console.WriteLine("{0} is Removed", top.data);
             top = top.Next;
