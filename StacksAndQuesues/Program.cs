@@ -10,7 +10,7 @@ namespace StacksAndQuesues
     {
         static void Main(string[] args)
         {
-            //UC-3 Ability create Queue
+            //UC-4 Ability to DeQueue
             Console.WriteLine("Welcome to Satck and Queues");
 
             LinkedListQueue Queue = new LinkedListQueue();
@@ -19,6 +19,7 @@ namespace StacksAndQuesues
             Queue.Enqueue(30);
             Queue.Enqueue(70);
 
+            Queue.Dequeue();
             Queue.Display();
             Console.ReadLine();
         }

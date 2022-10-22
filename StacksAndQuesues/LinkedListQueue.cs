@@ -24,6 +24,14 @@ namespace StacksAndQuesues
                 temp.Next = node;
             }
         }
+        public void Dequeue()
+        {
+            if (top == null)
+                Console.WriteLine("List is Empty");
+            else
+                Console.WriteLine("{0} is Removed", top.data);
+            top = top.Next;
+        }
         public void Display()
         {
             Node temp = this.top;
