@@ -27,7 +27,7 @@ namespace StacksAndQuesues
         public void Display()
         {
             Node temp = this.top;
-            Console.WriteLine("\nElements in stack: ");
+            Console.WriteLine("\nElements in Queue: ");
             while (temp != null)
             {
                 Console.WriteLine(temp.data + " ");
