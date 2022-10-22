@@ -10,19 +10,16 @@ namespace StacksAndQuesues
     {
         static void Main(string[] args)
         {
-            //UC-2 Ability to peak and pop from stack till it is empty
+            //UC-3 Ability create Queue
             Console.WriteLine("Welcome to Satck and Queues");
 
-            
-            LinkedListStack stack = new LinkedListStack();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
+            LinkedListQueue Queue = new LinkedListQueue();
 
-            stack.Peek();
-            stack.Pop();
-            stack.Display();
+            Queue.Enqueue(56);
+            Queue.Enqueue(30);
+            Queue.Enqueue(70);
 
+            Queue.Display();
             Console.ReadLine();
         }
     }
